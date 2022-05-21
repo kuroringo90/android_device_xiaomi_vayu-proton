@@ -216,6 +216,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
+# HALs
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := sm8150
+
 # GPS
 PRODUCT_PACKAGES += \
      android.hardware.gnss@2.1-impl-qti \
